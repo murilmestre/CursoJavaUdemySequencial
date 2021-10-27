@@ -1,6 +1,16 @@
+import java.util.Scanner;
+/*Faça um programa para ler dois valores inteiros, e depois mostrar na tela a soma desses números*/
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        int y =sc.nextInt();
+        int soma = x+y;
+        System.out.println("SOMA = "+soma);
+
+
+        sc.close();
     }
 }
